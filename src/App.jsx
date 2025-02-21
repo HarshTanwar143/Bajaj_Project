@@ -7,7 +7,7 @@ export default function App() {
   const [error, setError] = useState('');
   const [selectedOptions, setSelectedOptions] = useState([]);
 
-  const apiUrl = 'http://localhost:3000/bfhl'; // Updated backend URL
+  const apiUrl = 'https://bajaj-backend-v8ts.onrender.com/bfhl'; // Updated backend URL
 
   const handleSubmit = async () => {
     try {
